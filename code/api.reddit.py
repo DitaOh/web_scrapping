@@ -35,17 +35,6 @@ reddit = praw.Reddit(
     user_agent="webscrapping2:v1.0"
 )
 
-
-if not client_id or not client_secret:
-    print("ERROR: Credenciales no encontradas en .env")
-    exit(1)
-
-reddit = praw.Reddit(
-    client_id=client_id,
-    client_secret=client_secret,
-    user_agent="webscrapping2:v1.0"
-)
-
 # Crear carpeta output si no existe
 output_dir = "../output"
 if not os.path.exists(output_dir):

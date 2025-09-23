@@ -1,0 +1,17 @@
+# Core
+pandas
+numpy
+requests
+
+# Web scraping
+selenium
+webdriver-manager
+beautifulsoup4
+lxml
+
+# Utilities
+tqdm
+python-dotenv
+
+# Reddit API
+praw

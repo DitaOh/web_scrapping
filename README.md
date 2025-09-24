@@ -19,7 +19,12 @@ web_scrapping/
 
 ## Exercise 1: Reddit API Data Collection ✅ COMPLETED
 
-**Completed by:** [Diana/@Diane-12] [Pedro Villena/@pedrovillena] [María Paula Dávila/@mdaviladv1] [Nadia Duffó/@naddc]
+**Completed by:** 
+- [Diana/@Diane-12]
+- [Pedro Villena/@pedrovillena]
+- [María Paula Dávila/@mdaviladv1]
+- [Nadia Duffó/@naddc]
+
 **Status:** Finished  
 **Files generated:**
 - `code/api_reddit.py`

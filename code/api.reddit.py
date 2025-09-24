@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv('.env')
 
 # Debug temporal
-import os
+
 print(f"Directorio actual: {os.getcwd()}")
 print(f"¿Existe .env?: {os.path.exists('.env')}")
 if os.path.exists('.env'):

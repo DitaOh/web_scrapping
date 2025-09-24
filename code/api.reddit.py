@@ -36,7 +36,7 @@ reddit = praw.Reddit(
 )
 
 # Crear carpeta output si no existe
-output_dir = "./output"
+output_dir = "../output"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 

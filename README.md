@@ -43,34 +43,34 @@ web_scrapping/
 
 **Target:** Data Science job offers from Bumeran platform  
 **Completed by:** [Diana/@Diane-12] [Pedro Villena/@pedrovillena] [María Paula Dávila/@mdaviladv1] [Nadia Duffó/@naddc]
+- [Diana/@Diane-12]
+- [Pedro Villena/@pedrovillena]
+- [María Paula Dávila/@mdaviladv1]
+- [Nadia Duffó/@naddc]
+
 **Status:** Finished
 **Files generated:**
 - web_scrapping_bumeran.ipynb
 - bumeran_jobs.csv
 
-### Requirements:
+### What was implemented:
 1. **Setup environment:**
    ```bash
    pip install selenium pandas re time numpy webdriver-manager
    ```
-
 2. **Target URL with filters:**
    - Platform: Bumeran
    - Job category: Data Science
    - Apply all specified filters from instructions
-
 3. **Two-stage scraping strategy:**
    - **Stage 1:** Extract all job posting URLs
    - **Stage 2:** Scrape detailed information for each job
-
 4. **Required data extraction:**
    - Job Title
    - Description (up to "Benefits" section)
    - District
    - Work Mode (on-site, remote, hybrid)
-
 5. **Output:** `output/bumeran_jobs.csv`
-
 6. **File to create:** `code/web_scrapping_bumeran.py`
 
 ## Getting Started
@@ -89,7 +89,7 @@ REDDIT_PASSWORD=your_password_here
 2. Run the script:
 ```bash
 cd code/
-python api_reddit.py
+python api.reddit.py
 ```
 
 ### For Exercise 2 (Bumeran Scraping):
